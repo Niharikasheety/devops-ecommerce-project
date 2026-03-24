@@ -28,6 +28,8 @@ pipeline {
                 docker rm -f demo-container || true
                 docker run -d -p 9090:9090 --name demo-container demo-app
                 '''
+                    }
+                }
             }
         }
     }
